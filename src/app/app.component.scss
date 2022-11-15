@@ -1,0 +1,119 @@
+.container {
+  padding-left: 200px;
+  padding-right: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  margin-top:10%;
+  background-color: lightgray;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 173px;
+  padding-right: 212px;
+  box-shadow: 10px 10px 8px black;
+
+  input {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+.checkbox {
+  display: inline!important;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+
+  &-cvv {
+    display: flex;
+    align-items: center;
+
+    .mat-icon {
+      height: 36px;
+    }
+
+    .mat-button {
+      padding: 0;
+      min-width: 0;
+
+      &:hover {
+        background-color: white !important;
+      }
+    }
+  }
+
+  &-amount {
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    align-items: center;
+    height: 50px;
+  }
+
+  &-currency {
+    margin-top: 10px;
+
+    select {
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+  }
+
+  &-cards {
+    display: flex;
+   justify-content: space-between;
+   margin-bottom: 10px;
+
+   .mat-icon {
+    height: 20px;
+    color: green;
+   }
+
+   a {
+    color: green;
+    text-decoration: none;
+   }
+
+   &_customer {
+    width: 100%;
+
+    input {
+      width: 98%;;
+    }
+   }
+
+   &_receiver {
+    width: 100%;
+
+    input {
+      width: 97%;;
+    }
+   }
+  }
+}
+
+.btn {
+  &_submit {
+    background-color: green;
+    color: aliceblue;
+    padding: 8px 16px;
+  }
+
+  &_container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+fieldset {
+ background-color: white;
+ margin-bottom: 20px;
+ border-radius: 5px;
+ padding: 10px;
+}
